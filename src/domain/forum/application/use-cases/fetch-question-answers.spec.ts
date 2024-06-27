@@ -1,7 +1,4 @@
 import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-repository'
-import { makeQuestion } from 'test/factories/make-question'
-import { Slug } from '../../enterprise/entities/value-objects/slug'
-import { FetchRecentQuestionsUseCase } from './fetch-recent-questions'
 import { FetchQuestionAnswersUseCase } from './fetch-question-answers'
 import { makeAnswer } from 'test/factories/make-answer'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
